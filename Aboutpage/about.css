@@ -1,0 +1,96 @@
+.welcome{
+    margin-top: 30px;
+        padding: 3rem 7%;
+    }
+    .main-welcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .inner-welcome{
+        flex: 1 1 45rem;
+    }
+    .welcome-text h1{
+        font-size: 40px;
+        color: var(--mainclr);
+    
+    }
+    .welcome-text p{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        margin-bottom: 25px;
+    }
+    .welcome-text a{
+        padding: 1.5rem 4rem;
+        background: var(--mainclr);
+        color: var(--headerclr);
+        font-size: 1.5rem;
+        border-radius: 15px;
+        text-decoration: none
+    }
+    .welcome-text a:hover{
+        background: var(--headerclr);
+        color: white;
+    }
+    .inner-welcome img{
+    width: 80%;
+    }
+    .chose-us{
+        padding: 5rem 7%;
+        background-color: turquoise;
+    }
+    .chose-us h1{
+        color: var(--headerclr);
+        font-size: 40px;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+    .chose-us h1 span{
+        color: var(--mainclr);
+    }
+    .chose-text{
+        color: var(--headerclr);
+        font-size: 1.5rem;
+        padding: 1rem 10rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .main-chose{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .inner-chose{
+        flex: 1 1 200px;
+    }
+    .chose-icon{
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        border: 8px solid var(--mainclr);
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+    .chose-icon i{
+        font-size: 40px;
+        color: white;
+        transition: .5s;
+    }
+    .chose-icon i:hover{
+    color: var(--headerclr);
+    transform: translateY(-25px);
+    }
+    .inner-chose h2{
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+    .inner-chose p{
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
