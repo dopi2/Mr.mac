@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --headerclr:#222533;
+    --mainclr:#ffcb0f;
+}
+
+body{
+    background-image: url(../images/backgroud\ image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.our-services{
+    padding: 5rem 7%;
+}
+.our-services h1{
+    color: var(--headerclr);
+    margin-top: 20px;
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    padding: 1rem 0;
+}
+.our-services h1 span{
+    color: var(--mainclr);
+}
+.main-service{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.inner-service{
+    flex: 1 1 300px;
+    background-color: #ffcb0f;
+    border-radius: 20px;
+    text-align: center;
+}
+.inner-service h2{
+    padding: 1rem 0;
+    font-size: 2rem;
+    /* margin-left: 10px; */
+}
+.inner-service p{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.inner-service a{
+    padding: 1.5rem 3rem;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    text-decoration:none;
+
+}
+.inner-service a:hover{
+    background: var(--headerclr);
+    color: white;
+}
+.inner-service img{
+ width: 200px;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --headerclr:#222533;
+    --mainclr:#ffcb0f;
+}
+
+.contact{
+   padding-top: 90px;
+}
+
+.contact h5{
+    font-size: 80px;
+}
+.contact h5 span{
+    color: var(--mainclr);
+}
+
+.contact p{
+    font-size: 30px;
+}
